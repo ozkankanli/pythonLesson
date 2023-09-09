@@ -11,3 +11,7 @@ y=bol(10,3)
 print(y)
 
 print(x)
+def carp(a,b):
+    c = a*b
+    return c
+
