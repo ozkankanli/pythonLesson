@@ -11,7 +11,12 @@ y=bol(10,3)
 print(y)
 
 print(x)
-def carp(a,b):
-    c = a*b
+
+def us(a,b):
+    c= 1
+    for x in range(b):
+        c = c*a
     return c
 
+z  = us(5,10)
+print(z)
